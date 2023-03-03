@@ -2,7 +2,9 @@ server:
   port: 8080
   error:
     include-message: always
-spring:
-  mvc:
-    servlet:
-      path: /client
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
